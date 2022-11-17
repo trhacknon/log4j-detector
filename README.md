@@ -101,21 +101,21 @@ Exit codes:  0 = No vulnerable Log4J versions found.
              2 = At least one vulnerable Log4J version found.
 
 About - MergeBase log4j detector (version 2021.12.29)
-Docs  - https://github.com/mergebase/log4j-detector 
+Docs  - https://github.com/trhacknon/log4j-detector 
 (C) Copyright 2021 Mergebase Software Inc. Licensed to you via GPLv3.
 ```
 
 # Build From Source: <a name="itembuild"></a>
 
 ```
-git clone https://github.com/mergebase/log4j-detector.git
+git clone https://github.com/trhacknon/log4j-detector.git
 cd log4j-detector/
 mvn install
 java -jar target/log4j-detector-latest.jar
 ```
 # Testing: <a name="itemtesting"></a>
 
-We maintain a collection of log4j samples here:  https://github.com/mergebase/log4j-samples
+We maintain a collection of log4j samples here:  https://github.com/trhacknon/log4j-samples
 
 # License <a name="itemlicense"></a>
 
